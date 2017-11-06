@@ -1,0 +1,88 @@
+body {
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+#page {
+  display: grid;
+  width: 100%;
+    grid-template-columns: 50% 1fr ;
+}
+
+h1 img {height:200px;}
+
+h2 {font-family: 'Metamorphous', cursive; text-transform: uppercase;}
+
+.bmo, .finn, .jack, .marceline, .mr, .pc, .pdf, .pls, .rdg {
+  padding: 10px;
+}
+
+p { width: 50%;
+margin: 0 auto;}
+
+
+.bmo {
+  background-color: #bfffca;
+  border: 2px solid #63c5ae;
+
+}
+
+.finn {
+    background-color: #009ddc;
+    border: 2px solid #2b67b0;
+}
+
+.jack {
+    background-color: #ffbb1a;
+    border: 2px solid #000002;
+}
+
+.marceline {
+    background-color: #505c76;
+    border: 2px solid #0d1440;
+}
+
+.mr {
+    background-color: #e1b3cf;
+    border: 2px solid #fdf18f;
+}
+
+.pc {
+    background-color: #ff00cc;
+    border: 2px solid #fe66ca;
+}
+
+.pdf {
+    background-color: #eb7832;
+    border: 2px solid #e7b874;
+}
+
+.pls {
+    background-color: #cc94f9;
+    border: 2px solid #fce04e;
+}
+
+.rdg {
+    background-color: #0000fe;
+    border: 2px solid #addaf7;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    /* Vos règles CSS pour les mobiles ici */
+#page{
+  grid-template-columns: 30% 1fr 1fr ;
+
+}
+}
+
+@media screen and (max-width: 480px)
+{
+    /* Vos règles CSS pour les mobiles ici */
+#page{
+  grid-template-columns: 100% 1fr;
+
+}
+}
