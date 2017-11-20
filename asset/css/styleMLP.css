@@ -9,7 +9,7 @@ text-align: center;
   width: 100%;
     grid-template-columns: 3 1fr ;
     grid-template-areas:
-    "roi chien chien "
+    "chien chien chien "
   	"licorne princesse princesse3 "
   	"licorne fille fille "
     "calculette calculette princesse2"
@@ -28,9 +28,9 @@ h2 {font-family: 'Metamorphous', cursive; text-transform: uppercase; }
   padding: 10px;
 }
 
-p { width: 300px;
+p { width: 50%;
 margin: 0 auto;
-line-height: 22px;}
+text-align: justify}
 
 img[alt="gif"] {
   width:300px;
@@ -38,66 +38,44 @@ img[alt="gif"] {
 
 }
 
-.bmo {
-  background-color: #bfffca;
-  border: 2px solid #63c5ae;
+.fs {
+  background-color: #fbf0b2;
+  border: 2px solid #f9c6d7;
   grid-area: calculette;
   transition: .2s all ease;
 }
 
-.bmo:hover {
+.fs:hover {
   border-radius: 90px;
 }
-.bmo:hover img {border-radius: 90px;}
+.fs:hover img {border-radius: 90px;}
 
-.finn {
-    background-color: #009ddc;
-    border: 2px solid #2b67b0;
+.aj {
+    background-color: #f4ba57;
+    border: 2px solid #f8ea9f;
     grid-area: hero;
       transition: .2s all ease;
 }
-.finn:hover {
+.aj:hover {
   border-radius: 90px;
 }
-.finn:hover img {border-radius: 90px;}
+.aj:hover img {border-radius: 90px;}
 
-.jack {
-    background-color: #ffbb1a;
-    border: 2px solid #000002;
+.pp {
+    background-color: #f5bacc;
+    border: 2px solid #ed5192;
     grid-area: chien;
       transition: .2s all ease;
 }
-.jack:hover {
+.pp:hover {
   border-radius: 90px;
 }
-.jack:hover img {border-radius: 90px;}
-
-.marceline {
-    background-color: #505c76;
-    border: 2px solid #0d1440;
-    grid-area: fille;
-      transition: .2s all ease;
-}
-.marceline:hover {
-  border-radius: 90px;
-}
-.marceline:hover img {border-radius: 90px;}
-
-.mr {
-    background-color: #e1b3cf;
-    border: 2px solid #fdf18f;
-    grid-area: licorne;
-      transition: .2s all ease;
-}
-.mr:hover {
-  border-radius: 90px;
-}
-.mr:hover img {border-radius: 90px;}
+.pp:hover img {border-radius: 90px;}
 
 .pc {
-    background-color: #ff00cc;
-    border: 2px solid #fe66ca;
-    grid-area: princesse;
+    background-color: #f8f9fe;
+    border: 2px solid #7a9aed;
+    grid-area: fille;
       transition: .2s all ease;
 }
 .pc:hover {
@@ -105,39 +83,51 @@ img[alt="gif"] {
 }
 .pc:hover img {border-radius: 90px;}
 
-.pdf {
-    background-color: #eb7832;
-    border: 2px solid #e7b874;
+.rd {
+    background-color: #95e2f6;
+    border: 2px solid #fb8346;
+    grid-area: licorne;
+      transition: .2s all ease;
+}
+.rd:hover {
+  border-radius: 90px;
+}
+.rd:hover img {border-radius: 90px;}
+
+.rarity {
+    background-color: #e7ebee;
+    border: 2px solid #473186;
+    grid-area: princesse;
+      transition: .2s all ease;
+}
+.rarity:hover {
+  border-radius: 90px;
+}
+.rarity:hover img {border-radius: 90px;}
+
+.ts {
+    background-color: #c992d5;
+    border: 2px solid #16215f;
     grid-area: princesse2;
       transition: .2s all ease;
 }
-.pdf:hover {
+.ts:hover {
   border-radius: 90px;
 }
-.pdf:hover img {border-radius: 90px;}
+.ts:hover img {border-radius: 90px;}
 
-.pls {
-    background-color: #cc94f9;
-    border: 2px solid #fce04e;
+.spike {
+    background-color: #db98df;
+    border: 2px solid #43be54;
     grid-area: princesse3;
       transition: .2s all ease;
 }
-.pls:hover {
+.spike:hover {
   border-radius: 90px;
 }
-.pls:hover img {border-radius: 90px;}
+.spike:hover img {border-radius: 90px;}
 
-.rdg {
-    background-color: #5252f9;
-    border: 2px solid #addaf7;
-    grid-area: roi;
-      transition: .2s all ease;
-}
-.rdg:hover {
-  border-radius: 90px;
-}
 
-.rdg:hover img {border-radius: 90px;}
 
 @media screen and (max-width: 1024px)
 {
