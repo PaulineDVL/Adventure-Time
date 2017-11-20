@@ -20,12 +20,12 @@ text-align: center;
 
 
 
-h1 img {height:200px;}
+h1 img {height:100px;}
 
 h2 {font-family: 'Metamorphous', cursive; text-transform: uppercase; }
 
 .bmo, .finn, .jack, .marceline, .mr, .pc, .pdf, .pls, .rdg {
-  padding: 10px;
+  padding: 5px;
 }
 
 p { width: 300px;
@@ -33,7 +33,7 @@ margin: 0 auto;
 line-height: 22px;}
 
 img[alt="gif"] {
-  width:300px;
+  width:200px;
     transition: .2s all ease;
 
 }
@@ -152,6 +152,8 @@ img[alt="gif"] {
 img[alt="gif"] {
   width:200px;
 }
+
+p {width: 220px;}
 }
 
 @media screen and (max-width: 768px)
